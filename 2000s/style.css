@@ -1,16 +1,78 @@
-/* This is a CSS override! It overrides default values for ALL elements. */
-/* I highly recommend keeping this override in your code. */
+
 * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
 
+.container {
+	justify-items: stretch;
+	display: grid;
+	grid-template-columns: repeat(2, 3fr); 
+
+	 max-width: 10000px;
+	margin: 20px ;
+	padding: 20px;
+
+	/* border: 10px solid #ff0000;
+	background-color: white; */ 
+	}	
+  
+	.hover-text {
+		display: none;
+	}
+	
+	.grid:hover ~ .hover-text {
+		display: block;
+	}
+  .container > div {
+	justify-items: stretch;
+	
+	background-color: blue;
+	max-width: 1000px;
+	padding: 30px;
+	text-align: center;
+	border: 3px solid #ff0000;
+	font-weight: bold;
+	overflow: scroll;
+	grid-auto-rows: 70px;
+	
+	align-items: stretch;
+  }
+
+
 body {
 	background-color: yellow;
 	font-family: sans-serif;
 }
+.container > h1 {
+	padding: 30px;
+	background-color: red;
+	text-emphasis-color: white;
+
+}
+.container > h1 {
+	position: center;
+	border: 3px solid #ff0000;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container > img {
+	border: 3px solid #ff0000;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+
+  
+
+
 h1 {
+	
 	margin: 20px;
 }
 h2 {
