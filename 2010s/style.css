@@ -87,7 +87,7 @@ body {
 	background-image: url("https://i.pinimg.com/originals/1b/af/f3/1baff3dcbd58d0b9b095a9573be372fb.gif");
 	background-size: cover;
 	background-position: center;
-	color: transparent; /* hides text when image is shown */
+	color: transparent;
 	opacity: 1
 	
 }
